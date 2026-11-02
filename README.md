@@ -88,7 +88,11 @@ forge script script/Deploy.s.sol:Deploy --rpc-url mainnet --sender $(cast wallet
 
 ## Audits
 
-Audit reports are available in the [`audits/`](./audits/) directory. The module has been audited by:
+Audit reports are hosted on the auditors' public portfolio pages:
 
-- [Cantina](https://cantina.xyz/portfolio/af6da668-1831-43da-8bcd-0ae987238e12)
-- [ChainSecurity](https://www.chainsecurity.com/security-audit/sky-star-guard)
+| Auditor | Report | Version | Date |
+| --- | --- | --- | --- |
+| Cantina | [Sky: Star Guard](https://cantina.xyz/portfolio/af6da668-1831-43da-8bcd-0ae987238e12) | v1.0.1 | 2025-10-17 |
+| ChainSecurity | [Star Guard](https://www.chainsecurity.com/security-audit/sky-star-guard/) | v1.0.1 | 2025-09-04 |
+
+ChainSecurity reports are cumulative: each portfolio page hosts the latest version of the report, which covers all previously reviewed versions.
